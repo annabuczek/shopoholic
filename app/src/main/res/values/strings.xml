@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Shopoholic</string>
+
+
+    <string name="player_1">Shopper 1</string>
+    <string name="player_2">Shopper 2</string>
+    <string name="score_player_1">0</string>
+    <string name="score_player_2">0</string>
+    <string name="finish_popup_button">Finish Shopping</string>
+    <string name="reset_button">Start Again</string>
+
+
+    <!--<string name="app_name">Shopoholic</string>-->
+    <!--<string name="app_name">Shopoholic</string>-->
+
 </resources>
