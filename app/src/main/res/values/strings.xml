@@ -9,6 +9,9 @@
     <string name="finish_popup_button">Finish Shopping</string>
     <string name="reset_button">Start Again</string>
 
+    <string name="finish_popup_button_land">Finish \nShopping</string>
+    <string name="reset_button_land">Start \nAgain</string>
+
 
     <!--<string name="app_name">Shopoholic</string>-->
     <!--<string name="app_name">Shopoholic</string>-->

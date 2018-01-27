@@ -6,6 +6,13 @@
     <dimen name="margin_small_horizontal">8dp</dimen>
     <dimen name="margin_small_vertical">8dp</dimen>
 
+    <dimen name="margin_small_horizontal_land">8dp</dimen>
+    <dimen name="margin_small_vertical_land">8dp</dimen>
+
     <dimen name="image_button_height">56dp</dimen>
     <dimen name="image_button_width">100dp</dimen>
+
+    <dimen name="image_button_width_land">56dp</dimen>
+    <dimen name="image_button_height_land">100dp</dimen>
+
 </resources>

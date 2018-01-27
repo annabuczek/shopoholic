@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/margin_main_vertical"
+    android:layout_marginEnd="@dimen/margin_main_horizontal"
+    android:layout_marginStart="@dimen/margin_main_horizontal"
+    android:layout_marginTop="@dimen/margin_main_vertical"
+    tools:context="com.example.android.shopoholic.MainActivity">
+
+    <TextView
+        android:id="@+id/namePlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_1"
+        android:textAppearance="@style/PlayerTextView"
+        android:layout_marginTop="@dimen/margin_small_vertical_land"
+        android:layout_marginBottom="@dimen/margin_small_vertical_land"
+        app:layout_constraintBottom_toTopOf="@id/scorePlayer1"
+        app:layout_constraintEnd_toStartOf="@id/verticalGuideline1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scorePlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_player_1"
+        android:textAppearance="@style/ScoreTextView"
+        android:layout_marginBottom="@dimen/margin_small_vertical_land"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline1"
+        app:layout_constraintEnd_toStartOf="@+id/verticalGuideline1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namePlayer1" />
+
+    <TextView
+        android:id="@+id/namePlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_2"
+        android:textAppearance="@style/PlayerTextView"
+        android:layout_marginTop="@dimen/margin_small_vertical_land"
+        android:layout_marginBottom="@dimen/margin_small_vertical_land"
+        app:layout_constraintBottom_toTopOf="@id/scorePlayer2"
+        app:layout_constraintEnd_toStartOf="@id/verticalGuideline1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/horizontalGuideline1" />
+
+    <TextView
+        android:id="@+id/scorePlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_player_2"
+        android:textAppearance="@style/ScoreTextView"
+        android:layout_marginBottom="@dimen/margin_small_vertical_land"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/verticalGuideline1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/namePlayer2" />
+
+    <ImageButton
+        android:id="@+id/tShirtButtonPlayer1"
+        android:layout_width="@dimen/image_button_width_land"
+        android:layout_height="@dimen/image_button_height_land"
+        android:layout_marginStart="@dimen/margin_small_horizontal_land"
+        android:layout_marginEnd="@dimen/margin_small_horizontal_land"
+        android:background="@color/colorBase"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline1"
+        app:layout_constraintEnd_toStartOf="@+id/trousersButtonPlayer1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/verticalGuideline1"
+        app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_t_shirt" />
+
+    <ImageButton
+        android:id="@+id/tShirtButtonPlayer2"
+        android:layout_width="@dimen/image_button_width_land"
+        android:layout_height="@dimen/image_button_height_land"
+        android:layout_marginEnd="@dimen/margin_small_horizontal_land"
+        android:layout_marginStart="@dimen/margin_small_horizontal_land"
+        android:background="@color/colorBase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/trousersButtonPlayer2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/verticalGuideline1"
+        app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+        app:srcCompat="@drawable/ic_t_shirt" />
+
+    <ImageButton
+        android:id="@+id/trousersButtonPlayer1"
+        android:layout_width="@dimen/image_button_width_land"
+        android:layout_height="@dimen/image_button_height_land"
+        android:layout_marginEnd="@dimen/margin_small_horizontal_land"
+        android:background="@color/colorBase"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline1"
+        app:layout_constraintEnd_toStartOf="@+id/shoesButtonPlayer1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tShirtButtonPlayer1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_trousers" />
+
+    <ImageButton
+        android:id="@+id/trousersButtonPlayer2"
+        android:layout_width="@dimen/image_button_width_land"
+        android:layout_height="@dimen/image_button_height_land"
+        android:layout_marginEnd="@dimen/margin_small_horizontal_land"
+        android:background="@color/colorBase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/shoesButtonPlayer2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tShirtButtonPlayer2"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+        app:srcCompat="@drawable/ic_trousers" />
+
+    <ImageButton
+        android:id="@+id/shoesButtonPlayer1"
+        android:layout_width="@dimen/image_button_width_land"
+        android:layout_height="@dimen/image_button_height_land"
+        android:layout_marginEnd="@dimen/margin_small_horizontal_land"
+        android:background="@color/colorBase"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline1"
+        app:layout_constraintEnd_toEndOf="@id/verticalGuideline2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/trousersButtonPlayer1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_men_shoe" />
+
+    <ImageButton
+        android:id="@+id/shoesButtonPlayer2"
+        android:layout_width="@dimen/image_button_width_land"
+        android:layout_height="@dimen/image_button_height_land"
+        android:layout_marginEnd="@dimen/margin_small_horizontal_land"
+        android:background="@color/colorBase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/verticalGuideline2"
+        app:layout_constraintStart_toEndOf="@+id/trousersButtonPlayer2"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+        app:srcCompat="@drawable/ic_men_shoe" />
+
+    <Button
+        android:id="@+id/finishPopUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_small_horizontal_land"
+        android:layout_marginStart="@dimen/margin_small_horizontal_land"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/margin_small_vertical"
+        android:text="@string/finish_popup_button_land"
+        android:textAppearance="@style/ButtonText"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_small_horizontal_land"
+        android:layout_marginStart="@dimen/margin_small_horizontal_land"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/margin_small_vertical"
+        android:text="@string/reset_button_land"
+        android:textAppearance="@style/ButtonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontalGuideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/verticalGuideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/verticalGuideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+
+</android.support.constraint.ConstraintLayout>
