@@ -177,7 +177,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
         app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.2"
+        android:onClick="resetScore"/>
 
     <android.support.constraint.Guideline
         android:id="@+id/horizontalGuideline1"

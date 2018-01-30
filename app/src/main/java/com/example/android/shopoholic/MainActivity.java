@@ -98,6 +98,16 @@ public class MainActivity extends AppCompatActivity {
         displayForPlayer2(scorePlayer2);
     }
 
+    /**
+     * Reset the score for both Players.
+     */
+    public void resetScore(View v) {
+        scorePlayer1 = 0;
+        scorePlayer2 = 0;
+        displayForPlayer1(scorePlayer1);
+        displayForPlayer2(scorePlayer2);
+    }
+
 
     /**
      * Displays the given score for Shopper 1.
