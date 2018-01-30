@@ -79,7 +79,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scorePlayer1"
         app:srcCompat="@drawable/ic_t_shirt"
-        android:onClick="addTshirtForPlayer1"/>
+        android:onClick="addTShirtForPlayer1"/>
 
     <ImageButton
         android:id="@+id/tShirtButtonPlayer2"
@@ -92,7 +92,7 @@
         app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
         app:layout_constraintTop_toBottomOf="@+id/scorePlayer2"
         app:srcCompat="@drawable/ic_t_shirt"
-        android:onClick="addTshirtForPlayer2"/>
+        android:onClick="addTShirtForPlayer2"/>
 
     <ImageButton
         android:id="@+id/trousersButtonPlayer1"
