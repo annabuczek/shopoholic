@@ -1,19 +1,36 @@
 <resources>
     <string name="app_name">Shopoholic</string>
 
-
+    <!-- The names of the players -->
     <string name="player_1">Shopper 1</string>
     <string name="player_2">Shopper 2</string>
+
+    <!-- Initial players score -->
     <string name="score_player_1">0</string>
     <string name="score_player_2">0</string>
-    <string name="finish_popup_button">Finish Shopping</string>
-    <string name="reset_button">Start Again</string>
 
+    <!-- Button for finishing game -->
+    <string name="finish_popup_button">Finish Shopping</string>
     <string name="finish_popup_button_land">Finish \nShopping</string>
+
+    <!-- Button for starting new game -->
+    <string name="reset_button">Start Again</string>
     <string name="reset_button_land">Start \nAgain</string>
 
+    <!-- Popup window strings -->
+    <string name="congratulation">Congratulation!</string>
+    <!-- Message shown to user while there is one winner -->
+    <string name="winner_message">The real Shopoholic is</string>
+    <string name="winner_message_name1">Shopper 1</string>
+    <string name="winner_message_name2">Shopper 2</string>
 
-    <!--<string name="app_name">Shopoholic</string>-->
-    <!--<string name="app_name">Shopoholic</string>-->
+    <!-- Message shown to user while there are two winners -->
+    <string name="remis_message">Both Shoppers are real</string>
+    <string name="remis_message_name">Shopoholics</string>
+
+    <!-- Content description -->
+    <string name="shoes">shoes icon</string>
+    <string name="trousers">trousers icon</string>
+    <string name="tshirt">tshirt icon</string>
 
 </resources>

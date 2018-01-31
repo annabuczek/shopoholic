@@ -74,7 +74,8 @@
         app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_t_shirt"
-        android:onClick="addTShirtForPlayer1"/>
+        android:onClick="addTShirtForPlayer1"
+        android:contentDescription="@string/tshirt"/>
 
     <ImageButton
         android:id="@+id/tShirtButtonPlayer2"
@@ -90,7 +91,8 @@
         app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
         app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
         app:srcCompat="@drawable/ic_t_shirt"
-        android:onClick="addTShirtForPlayer2"/>
+        android:onClick="addTShirtForPlayer2"
+        android:contentDescription="@string/tshirt"/>
 
     <ImageButton
         android:id="@+id/trousersButtonPlayer1"
@@ -104,7 +106,8 @@
         app:layout_constraintStart_toEndOf="@+id/tShirtButtonPlayer1"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_trousers"
-        android:onClick="addTrousersForPlayer1"/>
+        android:onClick="addTrousersForPlayer1"
+        android:contentDescription="@string/trousers"/>
 
     <ImageButton
         android:id="@+id/trousersButtonPlayer2"
@@ -118,7 +121,8 @@
         app:layout_constraintStart_toEndOf="@+id/tShirtButtonPlayer2"
         app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
         app:srcCompat="@drawable/ic_trousers"
-        android:onClick="addTrousersForPlayer2"/>
+        android:onClick="addTrousersForPlayer2"
+        android:contentDescription="@string/trousers"/>
 
     <ImageButton
         android:id="@+id/shoesButtonPlayer1"
@@ -132,7 +136,8 @@
         app:layout_constraintStart_toEndOf="@+id/trousersButtonPlayer1"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_men_shoe"
-        android:onClick="addShoesForPlayer1"/>
+        android:onClick="addShoesForPlayer1"
+        android:contentDescription="@string/shoes"/>
 
     <ImageButton
         android:id="@+id/shoesButtonPlayer2"
@@ -145,7 +150,8 @@
         app:layout_constraintStart_toEndOf="@+id/trousersButtonPlayer2"
         app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1"
         app:srcCompat="@drawable/ic_men_shoe"
-        android:onClick="addShoesForPlayer2"/>
+        android:onClick="addShoesForPlayer2"
+        android:contentDescription="@string/shoes"/>
 
     <Button
         android:id="@+id/finishPopUpButton"
@@ -161,7 +167,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.8"
+        android:onClick="showPopUpWindow"/>
 
     <Button
         android:id="@+id/resetButton"

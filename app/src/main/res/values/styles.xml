@@ -9,6 +9,14 @@
         <item name="android:windowBackground">@color/colorPrimaryLight</item>
     </style>
 
+    <style name="AppTheme.PopUp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowBackground">@color/colorBase</item>
+    </style>
+
+
     <style name="ScoreTextView">
         <item name="android:textSize">56sp</item>
         <item name="android:textColor">@color/colorBase</item>
@@ -25,7 +33,21 @@
     <style name="ButtonText" parent="TextAppearance.AppCompat.Button">
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:fontFamily">sans-serif-light</item>
-
     </style>
+
+    <style name="HeaderMessageView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAccentDark</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="MainMessageView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+
 
 </resources>
