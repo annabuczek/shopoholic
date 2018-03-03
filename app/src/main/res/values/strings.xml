@@ -17,7 +17,7 @@
     <string name="reset_button">Start Again</string>
     <string name="reset_button_land">Start \nAgain</string>
 
-    <!-- Popup window strings -->
+    <!-- Popup windows strings -->
     <string name="congratulation">Congratulation!</string>
     <!-- Message shown to user while there is one winner -->
     <string name="winner_message">The real Shopoholic is</string>

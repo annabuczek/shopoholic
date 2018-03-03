@@ -7,8 +7,7 @@
 
     <TextView
         android:id="@+id/congratulation_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/BaseViewStyle"
         android:text="@string/congratulation"
         android:textAppearance="@style/HeaderMessageView"
         app:layout_constraintBottom_toTopOf="@+id/message_text_view"
@@ -20,8 +19,7 @@
 
     <TextView
         android:id="@+id/message_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/BaseViewStyle"
         android:text="@string/winner_message"
         android:textAppearance="@style/MainMessageView"
         app:layout_constraintBottom_toTopOf="@+id/winner_text_view"
@@ -31,10 +29,9 @@
 
     <TextView
         android:id="@+id/winner_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/BaseViewStyle"
         android:text="@string/winner_message_name2"
-        android:textAppearance="@style/HeaderMessageView"
+        android:textAppearance="@style/PlayerTextViewPopUp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,19 +39,15 @@
 
     <Button
         android:id="@+id/button_start_again"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ActionButtonStyle"
+        android:layout_marginTop="@dimen/margin_small"
+        android:onClick="backToMainActivity"
         android:text="@string/reset_button"
-        android:background="@color/colorAccent"
-        android:textAppearance="@style/ButtonText"
-        android:padding="@dimen/margin_small_vertical"
-        android:layout_marginTop="@dimen/margin_small_vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/winner_text_view"
-        app:layout_constraintVertical_bias="0.0"
-        android:onClick="backToMainActivity"/>
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </android.support.constraint.ConstraintLayout>

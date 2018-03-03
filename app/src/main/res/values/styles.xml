@@ -1,5 +1,4 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -9,17 +8,21 @@
         <item name="android:windowBackground">@color/colorPrimaryLight</item>
     </style>
 
+    <!-- General style of displayed popup window -->
     <style name="AppTheme.PopUp" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowCloseOnTouchOutside">true</item>
         <item name="android:windowBackground">@color/colorBase</item>
     </style>
 
+    <!-- Display text styles -->
 
     <style name="ScoreTextView">
         <item name="android:textSize">56sp</item>
         <item name="android:textColor">@color/colorBase</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="ButtonText" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
@@ -30,16 +33,12 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
-    <style name="ButtonText" parent="TextAppearance.AppCompat.Button">
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:fontFamily">sans-serif-light</item>
+    <style name="PlayerTextViewPopUp" parent="PlayerTextView">
+        <item name="android:textColor">@color/colorAccentDark</item>
     </style>
 
-    <style name="HeaderMessageView">
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/colorAccentDark</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:textAllCaps">true</item>
+    <style name="HeaderMessageView" parent="PlayerTextView">
+        <item name="android:textColor">@color/colorPrimary</item>
     </style>
 
     <style name="MainMessageView">
@@ -48,6 +47,28 @@
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
+    <!-- Views styles -->
+    <style name="BaseViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
+    <style name="ImageButtonPortrait">
+        <item name="android:layout_width">@dimen/image_button_size_long</item>
+        <item name="android:layout_height">@dimen/image_button_size_short</item>
+        <item name="android:background">@color/colorBase</item>
+    </style>
+
+    <style name="ImageButtonLandscape">
+        <item name="android:layout_width">@dimen/image_button_size_short</item>
+        <item name="android:layout_height">@dimen/image_button_size_long</item>
+        <item name="android:background">@color/colorBase</item>
+    </style>
+
+    <style name="ActionButtonStyle" parent="BaseViewStyle">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:padding">@dimen/margin_small</item>
+        <item name="android:textAppearance">@style/ButtonText</item>
+    </style>
 
 </resources>

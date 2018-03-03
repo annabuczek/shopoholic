@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_main_horizontal">16dp</dimen>
-    <dimen name="margin_main_vertical">16dp</dimen>
 
-    <dimen name="margin_small_horizontal">8dp</dimen>
-    <dimen name="margin_small_vertical">8dp</dimen>
+    <dimen name="margin_main">16dp</dimen>
 
-    <dimen name="margin_small_horizontal_land">8dp</dimen>
-    <dimen name="margin_small_vertical_land">8dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
 
-    <dimen name="image_button_height">56dp</dimen>
-    <dimen name="image_button_width">100dp</dimen>
+    <dimen name="image_button_size_short">56dp</dimen>
+    <dimen name="image_button_size_long">100dp</dimen>
 
-    <dimen name="image_button_width_land">56dp</dimen>
-    <dimen name="image_button_height_land">100dp</dimen>
 
 </resources>
